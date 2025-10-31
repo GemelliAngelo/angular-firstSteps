@@ -5,11 +5,23 @@
 
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
+  color: var(--accent-color);
+  background-color: #292929;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.content {
+  padding: 30px 0;
 }
 
 :root {
-  --primary-color: #605dc8;
-  --secondary-color: #8b89e6;
+  --primary-color: #000000;
+  --secondary-color: #9900ff;
   --accent-color: #e8e7fa;
   --shadow-color: #e8e8e8;
 }
